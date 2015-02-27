@@ -30,14 +30,6 @@ void myDisplay(void)
     
     
     glBegin(GL_LINE_STRIP); 
-    /*  Triangulo perfecto
-      glColor3f(1.0f, 0.0f, 0.0f);  // activamos el color rojo
-      glVertex3f(-1.0f, 0.0f, 0.0f);
-      glColor3f(0.0f, 1.0f, 0.0f);  // activamos el color verde
-      glVertex3f(1.0f, 0.0f, 0.0f);
-      glColor3f(0.0f, 0.0f, 1.0f);  // activamos el color azul
-      glVertex3f(0.0f, 1.0f, 0.0f);
-      * */
       glColor3f(1.0f, 0.0f, 0.0f);  // activamos el color rojo
       glVertex3f(0.0f, 0.0f, 0.0f); //Priver vertice
       glColor3f(0.0f, 1.0f, 0.0f);  // activamos el color verde
