@@ -1,0 +1,23 @@
+# Gambas Project File 3.0
+# Compiled with Gambas 3.1.1
+Title=Light browser based on WebKit component
+Startup=FBrowser
+Icon=konqueror.png
+Version=3.0.92
+Component=gb.image
+Component=gb.qt4
+Component=gb.form
+Component=gb.form.dialog
+Component=gb.qt4.webkit
+TabSize=2
+Translate=1
+Language=es
+SourcePath=/home/user/opac-new
+Maintainer=benoit
+Vendor=Princeton
+Address=benoit@desnouettes
+License=General Public Licence
+Packager=1
+Systems=mandriva
+Menus=mandriva:"More Applications/Development/Other"
+Groups=mandriva:"Development/Other"

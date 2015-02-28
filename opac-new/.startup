@@ -1,0 +1,12 @@
+FBrowser
+Light browser based on WebKit component
+0
+0
+3.0.92
+
+gb.image
+gb.qt4
+gb.form
+gb.form.dialog
+gb.qt4.webkit
+
