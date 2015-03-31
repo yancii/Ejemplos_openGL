@@ -17,7 +17,7 @@ void init (void)
 {
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    glOrtho(0.0, 1.0, 0.0, 1.0, -1.0, 1.0);
+    glOrtho(-1, 1, -1, 1, -1, 1);
 }
 
 int main(int argc, char** argv)

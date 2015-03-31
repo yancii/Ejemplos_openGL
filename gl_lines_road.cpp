@@ -9,15 +9,15 @@ void display(void)
     glPointSize(2.0f);
     glColor3f(0.0f,0.0f,1.0f); //blue color
     GLfloat angulo;
-    
-	int i; 
+
+    int i;
     glBegin(GL_LINES);
-	for (i=0; i<180; i+=10)
-	{
-      angulo = (GLfloat)i*M_PI/180.0f; // grados a radianes
-      glVertex3f(0.0f, 0.0f, 0.0f);
-      glVertex3f(cos(angulo), sin(angulo), 0.0f);
-	}
+    for (i=0; i<360; i+=10)
+    {
+        angulo =i*M_PI/180.0f; // grados a radianes
+        glVertex3f(0.0f, 0.0f, 0.0f);
+        glVertex3f(cos(angulo), sin(angulo), 0.0f);
+    }
     glEnd();
     glFlush ();
 

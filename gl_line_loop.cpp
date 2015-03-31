@@ -1,10 +1,8 @@
 #include <GL/gl.h>
 #include <GL/glut.h>
-#include <math.h>
 
-float radio=0.5;
-int numPuntos=30;
-const double radius = 5; // The radius of the circle
+
+
 void display(void)
 {
     glClear (GL_COLOR_BUFFER_BIT);
