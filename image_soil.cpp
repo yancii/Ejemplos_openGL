@@ -7,12 +7,12 @@
 GLuint texture[0];
 
 void resize(int h, int w) {
-    	glViewport(0, 0, w, h);
-	glMatrixMode(GL_PROJECTION);
-	glLoadIdentity();
-	gluPerspective(60.0, (float)w / (float)h, 1.0, 200.0);
-	glMatrixMode(GL_MODELVIEW); 
-    	glLoadIdentity(); 
+    glViewport(0, 0, w, h);
+    glMatrixMode(GL_PROJECTION);
+    glLoadIdentity();
+    gluPerspective(60.0, (float)w / (float)h, 1.0, 200.0);
+    glMatrixMode(GL_MODELVIEW); 
+    glLoadIdentity(); 
 }
 
 static void display(void)
