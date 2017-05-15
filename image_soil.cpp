@@ -28,10 +28,8 @@ static void display(void)
         SOIL_CREATE_NEW_ID,
         SOIL_FLAG_MIPMAPS | SOIL_FLAG_INVERT_Y | SOIL_FLAG_NTSC_SAFE_RGB | SOIL_FLAG_COMPRESS_TO_DXT
     );
-	// allocate a texture name
-
+	
     glBindTexture(GL_TEXTURE_2D, texture[0]);
-    
     glBegin(GL_TRIANGLES);
     glTexCoord2f(1.0f, 1.0f);  
     glVertex3f(0.0,1.0,0.0);
